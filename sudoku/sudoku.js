@@ -33,7 +33,6 @@ function sudokuSolver(sudoku, row, col){
                 return true;
             }
             sudoku[row][col] = 0;
-
         }
     }
     return false;
