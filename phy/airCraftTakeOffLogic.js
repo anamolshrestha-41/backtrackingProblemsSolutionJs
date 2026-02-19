@@ -1,7 +1,7 @@
 //Basic Science Related to force
 //Everything is supposed.
-let mass = 20000; //kg
-let thrust = 80000; //Newton
+let mass = 10000; //kg
+let thrust = 50000; //Newton
 let drag = 30000; //Newton
 
 const NetForce = thrust - drag;
@@ -14,7 +14,7 @@ console.log(`Force: ${Force}N`)
 
 //Taking input from user for checking whether aircraft is accelerating, constant speed or decelerating
 
-const inputNetforce = 100;
+const inputNetforce = 160;
 
 const outPutNetforce = inputNetforce == 0 ? "Constant Speed"
     : inputNetforce > 0 ? "Accelerating"
